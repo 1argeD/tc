@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.projectlombok:lombok:1.18.20")
+    implementation("javax.validation:validation-api:2.0.1.Final")
+    implementation("com.google.code.findbugs:jsr305:3.0.2")
+    annotationProcessor("org.projectlombok:lombok:1.18.20")
+
+    testImplementation 'org.assertj:assertj-core:3.11.1'
+    testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter:0.3.1")
+    testImplementation("com.navercorp.fixturemonkey:fixture-monkey-jackson:0.3.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
+    testImplementation("org.assertj:assertj-core:3.18.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
