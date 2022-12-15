@@ -1,7 +1,7 @@
 package org.example.TC;
 
 import java.lang.annotation.Retention;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/120921*/
 public class 문자열밀기 {
     public int solution(String A, String B) {
         int answer = 0;
