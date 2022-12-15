@@ -13,8 +13,8 @@ public class 옹알이 {
 
             for (int j = 0; j < joka.length; j++) {
 
-                read[i] = read[i].replace(joka[j], "♥");
-                if (read[i].replace("♥", "").equalsIgnoreCase("")) {
+                read[i] = read[i].replace(joka[j], "★");
+                if (read[i].replace("★", "").equalsIgnoreCase("")) {
                     answer++;
                     break;
                 }
