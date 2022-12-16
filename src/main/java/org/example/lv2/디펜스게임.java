@@ -40,8 +40,8 @@ public class 디펜스게임 {
                 }
 
             }
-/*만약 해당 라운드의 숫자가 enemy 의 마지막 번째와 같다면라운드를 모두 클리어 했으므로
-answer는 ememy의 길이와 같다.*/
+/*만약 해당 라운드의 숫자가 enemy 의 마지막 번째와 같다면 라운드를 모두 클리어 했으므로
+answer 는 enemy 의 길이와 같다.*/
             if(i == (enemy.length-1))
                 answer = enemy.length;
         }
