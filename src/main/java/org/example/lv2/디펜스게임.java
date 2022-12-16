@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 public class 디펜스게임 {
     public int solution(int n, int k, int[] enemy ) {
         int answer = 0;
-/*PriorityQueue란 데이터에 우선순위를 먼저 결정하고 우선 순위가 높은 데이터가 먼저나가게한다
+/*PriorityQueue란 데이터에 우선순위를 먼저 결정하고 우선 순위가 높은 데이터가 먼저 나가게한다
 * PriorityQueue를 사용하기 위해서는 저장할 객체는 필수적으로 Comparable Interface를 먼저 구현해야한다.
 * */
         PriorityQueue<Integer> q = new PriorityQueue<Integer>(Comparator.reverseOrder());/*높은 숫자가 우선 수위인 int 형을 우선 순위로*/
@@ -24,13 +24,14 @@ public class 디펜스게임 {
                     answer = i;
                     break;
                 }
-/*length는 배열, length()는 문자열(String Object)일 떄 사용. 배열과 문자열은 immutable(변경불가)한 특징을 갖는데,
-*String, boolean, Integer,Float, Long 등등이  생성 후 변경불가능한 Immutable Object이다.
-* 반대의 경우 size()를 사용한다.(컬렉션 프레임워크 List,Map,Set의 인터페이스 등)*/
+/*length 는 배열, length()는 문자열(String Object)일 때 사용. 배열과 문자열은 immutable(변경불가)한 특징을 갖는데,
+*String, boolean, Integer,Float, Long 등등이  생성 후 변경 불가능한 Immutable Object이다.
+*반대의 경우 size()를 사용한다. (컬렉션 프레임워크 List ,Map ,Set의 인터페이스 등)*/
 
-                /*해당 라운드는 무적권을 사용했으므로 무적권을 하나 뺴고,
-                 배열q에서  이번 라운드 병사 숫자를 반환시켜 temp으로 두고
-                 합산한 sum의 값에서 포함하지 않도록 차감한다.
+                /*해당 라운드는 무적권을 사용했으므로
+                무적권을 하나 뺴고,
+                 배열 q에서 이번 라운드의 적 숫자를 반환시켜 temp 으로 설정한다.
+                 그리고 temp 을 sum 의 값에 포함하지 않도록 차감한다.
                  */
                 if(q.size()>0){
                     int temp = q.poll();
