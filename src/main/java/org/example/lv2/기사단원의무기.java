@@ -5,8 +5,8 @@ import java.util.List;
 
 public class 기사단원의무기 {
         public int solution(int number, int limit, int power) {
-            /*Integer은 Int의 레퍼클래스로 int는 기본형 변수로 데이터의 타입에 따라서 저장될 공간과 크기를 정한 것이고
-            * Interger 은 1. 매개변수로 객체를 필요할 때 2.기본형이 아닌 객체를 저장할 때 3.객체간의 비교가 필요할 때 사용
+            /*Integer 은 Int 의 레퍼클래스로 int 는 기본형 변수로 데이터의 타입에 따라서 저장될 공간과 크기를 정한 것이고
+            * Integer 은 1. 매개변수로 객체를 필요할 때 2.기본형이 아닌 객체를 저장할 때 3.객체간의 비교가 필요할 때 사용
             * 기본형을 객체로 다루기 위해서 사용하는 클래스를 레퍼 클래그 라고하며 Double, Float, Long, Short, Byte Character, Boolean 이있다.
             * */
 
