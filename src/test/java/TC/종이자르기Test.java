@@ -15,6 +15,7 @@ public class 종이자르기Test {
         int result = paper.solution(M,N);
         Assertions.assertThat(result).isEqualTo(answer);
     }
+
     @Test
     void solution2() {
         int answer = 0;
