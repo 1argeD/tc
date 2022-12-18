@@ -15,10 +15,8 @@ class 세균증식 {
 //        return answer
 //    }
     fun solution2(n:Int, t:Int) : Int{
-        var k : Float = n.toFloat()
-        var s : Float = t.toFloat()
-        var an: Float = k.pow(2).pow(s)
-        var answer : Int = an.toInt()
+        val an: Double = n*(2.0).pow(t)
+        var answer = an.toInt()
         return answer
     }
 }
