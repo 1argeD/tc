@@ -19,7 +19,7 @@ class 세균증식Test : StringSpec(
             val n:Int = 7
             val t:Int = 15
             val answer: Int = 229376
-            val result:Int = 세균증식().solution(n,t)
+            val result:Int = 세균증식().solution2(n,t)
             result.equals(answer)
         }
 
