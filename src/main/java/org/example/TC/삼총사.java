@@ -1,8 +1,6 @@
 package org.example.TC;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/131705*/
 public class 삼총사 {
     public int solution(int[] number) {
         int count = 0;

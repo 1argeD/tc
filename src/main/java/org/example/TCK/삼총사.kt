@@ -1,5 +1,5 @@
 package org.example.TCK
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/131705*/
 class 삼총사 {
     fun solution(number:Array<Int>):Int{
         var answer:Int=0
