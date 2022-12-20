@@ -1,7 +1,7 @@
 package org.example.lv2;
 
 import java.util.*;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/42888*/
 public class 오픈채팅방 {
     public String[] solution(String[] record) {
         Map<String, String> idNickname = new HashMap<>();/*특정 아이디를 사용중인 닉네임으 저장하기 위해서 Mao<>을 사용-키값과 닉네임을 동시에 사용하기 위함*/
