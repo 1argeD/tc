@@ -1,7 +1,7 @@
 package org.example.TC;
 
 /*https://school.programmers.co.kr/learn/courses/30/lessons/120871?language=java*/
-public class 저주의숫자 {
+public class 저주의숫자3 {
     public int solution(int n) {
         int x3 = 0;
         for(int i = 1; i<=n; i++) {

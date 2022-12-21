@@ -1,12 +1,12 @@
 package TC;
 
 import org.assertj.core.api.Assertions;
-import org.example.TC.저주의숫자;
+import org.example.TC.저주의숫자3;
 import org.junit.jupiter.api.Test;
 
-public class 저주의숫자Test {
+public class 저주의숫자3Test {
 
-    private final 저주의숫자 curse = new 저주의숫자();
+    private final 저주의숫자3 curse = new 저주의숫자3();
 
     @Test
     void solution() {
