@@ -1,6 +1,5 @@
 package org.example.TC;
 
-import java.lang.annotation.Retention;
 /*https://school.programmers.co.kr/learn/courses/30/lessons/120894?language=java*/
 public class 영어가싫어요 {
     public long solution(String numbers) {
