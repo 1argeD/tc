@@ -1,14 +1,5 @@
 package org.example.TC;
 
-import javax.swing.text.MaskFormatter;
-import java.awt.event.ItemEvent;
-import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.IntConsumer;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.partitioningBy;
-
 public class 푸드파이터 {
     public String solution(int[] food) {
         StringBuilder an = new StringBuilder();
