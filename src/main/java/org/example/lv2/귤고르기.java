@@ -20,7 +20,10 @@ public class 귤고르기 {
         keySet() 메서드는 key 의 값만 출력
         Iterator 는 자바의 컬렉션 프레임워크에서 컬렉션에 저장되어 있는 요소들을 읽어오는 방법
         sorted() 정렬시키기 */
-        List<Map.Entry<Integer, Integer>> collect = tangerineCountMap.entrySet().stream().sorted((o1, o2) -> o2.getValue() - o1.getValue())
+        List<Map.Entry<Integer, Integer>> collect = tangerineCountMap
+                .entrySet()
+                .stream()
+                .sorted((o1, o2) -> o2.getValue() - o1.getValue())
                 .collect(Collectors.toList());
 
         int type = 0;
