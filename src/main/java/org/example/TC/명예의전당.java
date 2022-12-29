@@ -7,8 +7,6 @@ public class 명예의전당 {
         PriorityQueue<Integer>priorityQueue = new PriorityQueue<>();
         int[] answer = new int[score.length];
 
-        int temp = 0;
-
         for(int i = 0; i < score.length; i++) {
             priorityQueue.add(score[i]);
             if(priorityQueue.size()>k) {
