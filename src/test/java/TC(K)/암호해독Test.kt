@@ -6,7 +6,7 @@ import org.example.TCK.암호해독
 
 class 암호해독Test : StringSpec(
     {
-        "세균증식테스트 코드" {
+        "암호해독 테스트 코드" {
             val cipher:String="dfjardstddetckdaccccdegk"
             val code:Int = 4
             val result = 암호해독().solution(cipher,code)

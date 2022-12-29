@@ -6,10 +6,7 @@ import java.util.stream.Collectors
 import java.util.stream.IntStream
 /*https://school.programmers.co.kr/learn/courses/30/lessons/120892?language=kotlin*/
 class 암호해독 {
-    fun solution(cipher:String, code:Int):String {
-        return IntStream.range(0, cipher.length)
-            .filter(IntPredicate { value: Int -> value % code == code - 1 })
-            .mapToObj(IntFunction { e: Int -> cipher[e].toString() })
-            .collect(Collectors.joining())
-    }
+    /**/
+    fun solution(cipher:String, code:Int):String =
+        cipher.filterIndexed{i, _ -> (i+1) % code == 0}
 }
