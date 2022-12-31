@@ -18,7 +18,7 @@ public class 옹알이2Test {
     void  setOng22() {
         String[] babbling = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};
         int result = 2;
-        int answer = ong2.solution2(babbling);
+        int answer = ong2.solution(babbling);
         Assertions.assertThat(answer).isEqualTo(result);
     }
 }
