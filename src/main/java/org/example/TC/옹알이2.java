@@ -8,7 +8,7 @@ public class 옹알이2 {
         String[] words = {"aya", "ye", "woo", "ma"};
         for (int i = 0; i < babbling.length; i++) {
             for (int j = 0; j < words.length; j++) {
-                if (!babbling[i].contains("yeye") || !babbling[i].contains("woowoo") || !babbling[i].contains("mama") || !babbling[i].contains("ayaaya")) {
+                if (!babbling[i].contains("yeye") && !babbling[i].contains("woowoo") && !babbling[i].contains("mama") && !babbling[i].contains("ayaaya")) {
                     babbling[i] = babbling[i].replace(words[j], "+");
                     if (babbling[i].replace("+", "").equalsIgnoreCase("")) {
                         answer++;
