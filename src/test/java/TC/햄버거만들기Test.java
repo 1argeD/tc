@@ -14,4 +14,12 @@ public class 햄버거만들기Test {
         int result = burger.solution(ingerdient);
         Assertions.assertThat(result).isEqualTo(answer);
     }
+
+    @Test
+    void solution2() {
+        int[] ingerdient = {2, 1, 1, 2, 3, 1, 2, 3, 1};
+        int answer = 2;
+        int result = burger.solution(ingerdient);
+        Assertions.assertThat(result).isEqualTo(answer);
+    }
 }
