@@ -5,88 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt;택배 배달과 수거">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jqwik-database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/개인정보수집유효기간.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/다음에올숫자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/명예의전당.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/문자열밀기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/삼총사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/세균증식.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/신고결과받기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/암호해독.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/연속된수의합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/영어가싫어요.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/옹알이.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/옹알이2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/저주의숫자3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/종이자르기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/콜라.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/택배배달과수거.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/푸드파이터.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/햄버거만들기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/명예의전당.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/삼총사.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/세균증식.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/암호해독.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/연속된수의합.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/옹알이.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TCK/저주의숫자3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/귤고르기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/기사단원의무기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/디펜스게임.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/오픈채팅방.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/혼자놀기의달인.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/삼총사Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/세균증식Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/암호해독Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/연속된수의합Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/옹알이Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC(K)/저주의숫자3Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/개인정보수집유효기간Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/다음에올숫자Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/명예의전당Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/문자열밀기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/삼총사Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/세균증식Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/신고결과받기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/암호해독Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/연속된수의합Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/영어가싫어요Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/옹알이2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/옹알이Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/저주의숫자3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/종이자르기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/콜라Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/푸드파이터Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/햄버거만들기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv2/귤고르기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv2/기사단원의무기Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv2/디펜스게임Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv2/오픈채팅방Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv2/혼자놀기의달인Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC/택배배달과수거Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jqwik-database" beforeDir="false" afterPath="$PROJECT_DIR$/.jqwik-database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/택배배달과수거.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/택배배달과수거.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,22 +60,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/1argeD/Desktop/tc-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "ef4c18c36aa880d7d2c25cbfb40284ef"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1argeD/Desktop/tc-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.택배배달과수거Test.solution">
+    <configuration name="tc-master [compileKotlin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileKotlin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tc-master [compileTestKotlin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileTestKotlin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="tc-master [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,8 +139,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="택배배달과수거Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.택배배달과수거Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.택배배달과수거Test.solution" />
+        <item itemvalue="Gradle.tc-master [compileTestKotlin]" />
+        <item itemvalue="Gradle.tc-master [compileKotlin]" />
         <item itemvalue="Gradle.tc-master [dependencies]" />
       </list>
     </recent_temporary>
@@ -183,7 +172,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673333506683</updated>
-      <workItem from="1673333508097" duration="7465000" />
+      <workItem from="1673333508097" duration="8739000" />
+      <workItem from="1673415939654" duration="5023000" />
+      <workItem from="1673432119784" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -199,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673361587361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&lt;feat&gt;택배 배달과 수거">
+      <created>1673361835380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673361835380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
