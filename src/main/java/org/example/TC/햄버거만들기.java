@@ -30,7 +30,7 @@ public class 햄버거만들기 {
         return answer;
     }
 
-        public int solutio2(int[] ingredient) {
+        public int solution2(int[] ingredient) {
             int[] stack = new int[ingredient.length];
             int sp = 0;
             int answer = 0;
