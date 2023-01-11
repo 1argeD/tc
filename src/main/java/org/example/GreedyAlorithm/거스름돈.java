@@ -10,15 +10,25 @@ public class 거스름돈 {
     * */
 
     public int solution(int n) {
+//        int answer = 0;
+//        int[] array = {500, 100, 50, 10};
+//        int k;
+//        for(int i=0; i<array.length; i++) {
+//            k = array[i];
+//            if(k==array[i]) {
+//                answer += n/k;
+//                n%=k;
+//            }
+//        }
+//        return answer;
+
         int answer = 0;
         int[] array = {500, 100, 50, 10};
-        int k=0;
-        for(int i=0; i<array.length; i++) {
-            k = array[i];
-            if(k==array[i]) {
-                answer += n/k;
-                n%=k;
-            }
+        int k;
+        for (int j : array) {
+            k = j;
+            answer += n / k;
+            n %= k;
         }
         return answer;
     }
