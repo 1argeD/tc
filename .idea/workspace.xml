@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;chore&gt;택배 배달과 수거">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/거스름돈.java" afterDir="false" />
+    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/일이될때까지.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/햄버거만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/햄버거만들기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +67,22 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.거스름돈">
+  <component name="RunManager" selected="애플리케이션.일이될때까지">
     <configuration name="거스름돈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.거스름돈" />
+      <module name="tc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.GreedyAlorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="일이될때까지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.일이될때까지" />
       <module name="tc.main" />
       <extension name="coverage">
         <pattern>
@@ -124,27 +136,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="tc-master [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="택배배달과수거Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <extension name="coverage">
@@ -163,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.일이될때까지" />
         <item itemvalue="애플리케이션.거스름돈" />
         <item itemvalue="JUnit.택배배달과수거Test.solution" />
         <item itemvalue="Gradle.tc-master [compileTestKotlin]" />
         <item itemvalue="Gradle.tc-master [compileKotlin]" />
-        <item itemvalue="Gradle.tc-master [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +172,8 @@
       <updated>1673333506683</updated>
       <workItem from="1673333508097" duration="8739000" />
       <workItem from="1673415939654" duration="5023000" />
-      <workItem from="1673432119784" duration="6456000" />
+      <workItem from="1673432119784" duration="7329000" />
+      <workItem from="1673496247054" duration="8158000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -211,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673442456184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&lt;feat&gt; Greedy알고리즘 - 거스름돈">
+      <created>1673456510182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456510182</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)">
+      <created>1673456649533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456649533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;feat&gt;택배 배달과 수거" />
     <MESSAGE value="&lt;chore&gt;택배 배달과 수거" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;chore&gt;택배 배달과 수거" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/거스름돈.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈" />
+    <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)" />
   </component>
 </project>
