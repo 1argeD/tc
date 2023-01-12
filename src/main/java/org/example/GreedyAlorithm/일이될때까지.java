@@ -10,16 +10,17 @@ N과 K가 주어질 때 N이 1이 될 때까지 1번 혹은 2번의 과정을 �
 public class 일이될때까지 {
     public static int solution(int n, int k) {
         int answer= 0;
-        while(n==1) {
-            int target = (n*k)/k;
-            answer += n - target;
-            n = target;
-            if(n>k) {
+        while(true) {
+            if(n==1) {
                 break;
+            } else if(n%k==0) {
+                n /= k;
+                answer++;
+            } else {
+                n -= 1;
+                answer++;
             }
-            answer+=1;
         }
-        answer +=(n-1);
         return answer;
     }
 
