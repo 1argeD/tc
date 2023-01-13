@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; Greedy알고리즘 - 일이될때까지">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/곱하기혹은더하기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/일이될때까지.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/일이될때까지.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +67,9 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.일이될때까지">
-    <configuration name="거스름돈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.거스름돈" />
+  <component name="RunManager" selected="애플리케이션.곱하기혹은더하기">
+    <configuration name="곱하기혹은더하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.곱하기혹은더하기" />
       <module name="tc.main" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="일이될때까지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.일이될때까지" />
+    <configuration name="org.example.GreedyAlorithm.거스름돈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.거스름돈" />
       <module name="tc.main" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.일이될때까지" />
-        <item itemvalue="애플리케이션.거스름돈" />
+        <item itemvalue="애플리케이션.곱하기혹은더하기" />
+        <item itemvalue="애플리케이션.org.example.GreedyAlorithm.거스름돈" />
         <item itemvalue="JUnit.택배배달과수거Test.solution" />
         <item itemvalue="Gradle.tc-master [compileTestKotlin]" />
         <item itemvalue="Gradle.tc-master [compileKotlin]" />
@@ -173,7 +173,8 @@
       <workItem from="1673333508097" duration="8739000" />
       <workItem from="1673415939654" duration="5023000" />
       <workItem from="1673432119784" duration="7329000" />
-      <workItem from="1673496247054" duration="9765000" />
+      <workItem from="1673496247054" duration="11325000" />
+      <workItem from="1673586277409" duration="17228000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673518878535</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&lt;feat&gt; Greedy알고리즘 - 일이될때까지">
+      <created>1673546617155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673546617155</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
