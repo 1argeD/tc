@@ -1,6 +1,7 @@
 package org.example.GreedyAlorithm;
 
-import java.util.Arrays;
+import java.util.*;
+import java.util.stream.IntStream;
 
 
 /*한 마을에 모험가가 N명 있습니다.
@@ -15,30 +16,38 @@ N명의 모험가에 대한 정보가 주어졌을 때, 여행을 떠날 수 있
 이 경우 그룹 1에 공포도가 1, 2, 3인 모험가를 한 명씩 넣고,
 그룹 2에 공포도가 2인 남은 두명을 넣게 되면 총 2개의 그룹을 만들 수 있습니다.
 또한 몇 명의 모험가는 마을에 그대로 남아 있어도 되기 때문에, 모든 모험가를 특정한 그룹에 넣을 필요는 없습니다.*/
-public class 모험가길드 {
-    public static int solution(int[] n, int x) {
-        int answer = 0;
-        for(int i=0; i<x; i++) {
-            n[i] = x;
-            Arrays.sort(n);
 
-            int count = 0;
-            for(int j : n) {
-                count++;
-                if(count >= n[j]) {
+public class 모험가길드 {
+    public static int solution(int[] n) {
+        Stack<Integer> people = new Stack<>();
+        Stack<Integer> team = new Stack<>();
+        int answer = 0;
+        for (int k : n) {
+            people.add(k);
+            Arrays.sort(n);
+            int x = n[n.length - 1];
+            if (k == x) {
+                team.add(n[n.length - 1]);
+                for (int j = 0; j < x-1; j++) {
+                    team.add(n[j]);
+                    Integer[] h = IntStream.range(0,n.length-1)
+                            .filter(idx -> idx != team.peek())
+                            .mapToObj(idx -> n[idx])
+                            .toArray(Integer[] :: new);
                     answer++;
-                    count = 0;
                 }
             }
         }
+        System.out.print(team);
         return answer;
     }
 
     public static void main(String[] args ) {
-        int[] n = {2,3,1,2,2};
+        int[] n = {2,2,1,2,2};
         int x = 3;
         int answer = 2;
-        int result = solution(n,x);
+        int result = solution(n);
         System.out.print(result==answer);
+        System.out.print(result);
     }
 }

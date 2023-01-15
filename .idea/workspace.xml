@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; Greedy알고리즘 - 일이될때까지">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/모험가길드.java" afterDir="false" />
+    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; Greedy알고리즘 - 모험가 길드">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/모험가길드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/모험가길드.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +186,7 @@
       <workItem from="1673586277409" duration="17958000" />
       <workItem from="1673671728193" duration="5549000" />
       <workItem from="1673709293564" duration="7263000" />
-      <workItem from="1673779350422" duration="2681000" />
+      <workItem from="1673779350422" duration="12180000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -254,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673639922928</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&lt;feat&gt; Greedy알고리즘 - 모험가 길드">
+      <created>1673791063662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673791063662</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,17 +300,7 @@
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 일이될때까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Greedy알고리즘 - 일이될때까지" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/모험가길드.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 모험가 길드" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Greedy알고리즘 - 모험가 길드" />
   </component>
 </project>
