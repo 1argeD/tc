@@ -19,32 +19,21 @@ N명의 모험가에 대한 정보가 주어졌을 때, 여행을 떠날 수 있
 
 public class 모험가길드 {
     public static int solution(int[] n) {
-        Stack<Integer> people = new Stack<>();
-        Stack<Integer> team = new Stack<>();
         int answer = 0;
-        for (int k : n) {
-            people.add(k);
-            Arrays.sort(n);
-            int x = n[n.length - 1];
-            if (k == x) {
-                team.add(n[n.length - 1]);
-                for (int j = 0; j < x-1; j++) {
-                    team.add(n[j]);
-                    Integer[] h = IntStream.range(0,n.length-1)
-                            .filter(idx -> idx != team.peek())
-                            .mapToObj(idx -> n[idx])
-                            .toArray(Integer[] :: new);
-                    answer++;
-                }
+        int member=0;
+        Arrays.sort(n);
+        for(int k :n) {
+            member+=1;
+            if( member >= k) {
+                answer+=1;
+                member=0;
             }
         }
-        System.out.print(team);
         return answer;
     }
 
     public static void main(String[] args ) {
-        int[] n = {2,2,1,2,2};
-        int x = 3;
+        int[] n = {2,3,1,2,2};
         int answer = 2;
         int result = solution(n);
         System.out.print(result==answer);
