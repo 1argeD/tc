@@ -1,5 +1,7 @@
 package org.example.GreedyAlorithm.Implementation;
 
+import java.sql.PreparedStatement;
+import java.util.Arrays;
 import java.util.Stack;
 
 import static java.util.stream.IntStream.range;
@@ -19,17 +21,41 @@ D: 아래쪽으로 한 칸 이동
 이때 여행가 A가 N x N크기의 정사각형 공간을 벗어나는 움직임은 무시됩니다. 예를 들어 (1, 1)의 위치에서 L 혹은 U를 만나면 무시됩니다.
 다음은 N = 5인 지도와 계획서입니다.*/
 public class 상하좌우 {
-    public int[] solution(int n, String[] move ) {
-//        Stack<String> move_point = new Stack<>();
+    public static int[] solution(int n, String[] plan) {
         int[] answer = {};
         /*LRUD*/
-        int[] x = {-1,1,0,0};
+        int[] x = {-1,1,0,0,};
         int[] y = {0,0,1,-1};
         String[]  move_point= {"L","R","U","D"};
 
-        for(range(0, move_point.length);) {
-            }
-        }
+        int X = 1;
+        int Y = 1;
+        int nx= 0;
+        int ny = 0;
+
+       for(int i=0;i<plan.length;i++) {
+           String element = plan[i];
+           for(int j=0; j>move_point.length;i++) {
+               if(element.equals(move_point[j])) {
+                   nx = X + x[j];
+                   ny = Y+ y[j];
+               }
+               if(nx<1||ny<1||nx<n||ny<n) {
+                   X = nx;
+                   Y = ny;
+               }
+           }
+           answer = new int[]{nx, ny};
+       }
         return answer;
+    }
+
+    public static void main(String[] args) {
+        int n =5;
+        String[] plan = {"R","R","R","U","D","D"};
+        int[] answer = {3,4};
+        int[] result = solution(n, plan);
+        System.out.print(answer == result);
+        System.out.print(result);
     }
 }
