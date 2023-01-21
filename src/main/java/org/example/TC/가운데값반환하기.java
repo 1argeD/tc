@@ -1,5 +1,5 @@
 package org.example.TC;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/12903*/
 public class 가운데값반환하기 {
     public String solution(String s) {
         if(s.length() % 2==1) {

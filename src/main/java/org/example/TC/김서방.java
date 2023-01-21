@@ -1,7 +1,6 @@
 package org.example.TC;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/12919*/
 public class 김서방 {
-
     public String solution(String[] seoul) {
         String answer = "";
         for(int i=0; i<seoul.length; i++) {

@@ -12,7 +12,7 @@ public class 가운데값반환하기Test {
         String s = "asdfg";
         String answer = "d";
         String result = middle.solution(s);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class 가운데값반환하기Test {
         String s = "qwer";
         String answer = "we";
         String result = middle.solution(s);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
     }
 }
