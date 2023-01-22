@@ -10,34 +10,22 @@ public class 택배배달과수거하기 {
     public long deliverLong(int cap, int n, int[] deliveries) {
         HashMap<Integer,Integer> deliver = new HashMap<>();
         long deliverL = 0;
+        int k=0;
         for(int i=0; i<n; i++) {
-            deliver.put(i+1,deliveries[i]);
-            if(n==i+1) {
-                int s= cap-deliveries[i];
-                deliver.replace(n,0);
-                deliverL=deliverL+n;
-
-                if(s>=deliveries[i-1]) {
-                    s-=deliveries[i-1];
-                    deliver.replace(i,0);
-
-                    s=cap;
-                    for(int j=n; j>0; j--){
-                        if(deliver.get(j)!=0) {
-                            s=cap-deliveries[j-1];
-                            deliver.replace(j,0);
-                            deliverL=deliverL+j;
-                        }
-
-                        if(s>=deliveries[j-1]) {
-                            s-=deliveries[j-1];
-                            deliver.replace(j,0);
-                        }
+            deliver.put(i,deliveries[i]);
+        }
+        for(int i=n; i>-1; i--) {
+            if(i!=0&&i!=1&&deliver.get(i-1)!=0) {
+                k=cap-deliveries[i-1];
+                deliver.replace(i-1,0);
+                deliverL=deliverL+i;
+                if(k>deliveries[i-2]) {
+                    while (k==0) {
+                        k-=deliveries[i-2];
+                        deliverL=deliverL+i-2L;
                     }
                 }
-
-                }
-
+            }
         }
         return deliverL;
     }

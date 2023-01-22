@@ -21,7 +21,7 @@ public class 택배배달과수거하기Test {
     @Test
     void case2() {
         int cap = 2;
-        int n = 5;
+        int n = 7;
         int[] deliveries ={1, 0, 2, 0, 1, 0, 2};
         int[] pickups={0, 2, 0, 1, 0, 2, 0};
         long answer = 30;
