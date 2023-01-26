@@ -19,11 +19,12 @@ public class 택배배달과수거하기 {
                 k=cap-deliveries[i-1];
                 deliver.replace(i-1,0);
                 deliverL=deliverL+i;
-                if(k>deliveries[i-2]) {
-                    while (k==0) {
-                        k-=deliveries[i-2];
+                if(deliver.get(i-2)!=0&&k>deliver.get(i-2)) {
+                        deliver.replace(i-2,0);
+                        k-=deliver.get(i-2);
                         deliverL=deliverL+i-2L;
-                    }
+                } else{
+                    k=cap;
                 }
             }
         }

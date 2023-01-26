@@ -7,7 +7,6 @@
     <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; 택배 배달과 수거하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/택배배달과수거하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/택배배달과수거하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lv2/택배배달과수거하기Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv2/택배배달과수거하기Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,20 +73,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.택배배달과수거하기Test.solution">
-    <configuration name="상하좌우" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.Implementation.상하좌우" />
-      <module name="tc.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.GreedyAlorithm.Implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.가운데값반환하기Test.홀수일때">
     <configuration name="모험가길드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.모험가길드" />
       <module name="tc.main" />
@@ -210,6 +196,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="김서방Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <extension name="coverage">
@@ -244,7 +246,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.택배배달과수거하기Test.solution" />
         <item itemvalue="JUnit.택배배달과수거하기Test.case2" />
         <item itemvalue="JUnit.이상한문자만들기Test.solution" />
         <item itemvalue="JUnit.이상한문자만들기.solutio" />
@@ -275,7 +276,9 @@
       <workItem from="1674277560479" duration="4595000" />
       <workItem from="1674291266553" duration="11568000" />
       <workItem from="1674387245084" duration="87000" />
-      <workItem from="1674395745499" duration="5941000" />
+      <workItem from="1674395745499" duration="5956000" />
+      <workItem from="1674451456031" duration="9008000" />
+      <workItem from="1674548613938" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -417,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674317675690</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&lt;feat&gt; 택배 배달과 수거하기">
+      <created>1674414329401</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674414329401</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,5 +470,16 @@
     <MESSAGE value="&lt;feat&gt; 택배배달과 수거하기" />
     <MESSAGE value="&lt;feat&gt; 택배 배달과 수거하기" />
     <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 택배 배달과 수거하기" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/lv2/택배배달과수거하기.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
