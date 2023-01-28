@@ -21,7 +21,7 @@ public class 개인정보수집유효기간 {
         return days;
     }
 
-    private static boolean isLonnger(int[] A, int[] B) {
+    private static boolean isLonger(int[] A, int[] B) {
         for(int i=0; i < 3; i ++) {
             if(A[i]<B[i]) {
                 return true;
@@ -43,7 +43,7 @@ public class 개인정보수집유효기간 {
 
     public int[] solution(String today, String[] term, String[] privacies) {
         HashMap<String , Integer>map = new HashMap<>();
-        ArrayList<Integer> answer = new ArrayList();
+        ArrayList<Integer> answer = new ArrayList<>();
 
         for(int i=0; i<term.length; i++) {
             String[] cur = term[i].split(" ");
@@ -56,7 +56,7 @@ public class 개인정보수집유효기간 {
             int[] day = transDayToInt(cur[0]);
             int[] curDay = addDays(day[0],day[1],day[2]-1,map.get(cur[1]));
 
-            if(isLonnger(curDay, todays)) {
+            if(isLonger(curDay, todays)) {
                 answer.add(i+1);
             }
         }

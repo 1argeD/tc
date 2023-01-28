@@ -12,7 +12,7 @@ class 세균증식Test : StringSpec(
             val n: Int = 2
             val t: Int =10
             val answer: Int = 2048
-            var result:Int = 세균증식().solution2(n, t)
+            val result:Int = 세균증식().solution2(n, t)
             Assertions.assertThat(result).isEqualTo(answer)
         }
 
