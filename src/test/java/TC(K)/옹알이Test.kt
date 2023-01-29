@@ -1,10 +1,12 @@
 package `TC(K)`
 
+import io.kotest.core.spec.style.AnnotationSpec
 import io.kotest.core.spec.style.StringSpec
 import org.assertj.core.api.Assertions
 import org.example.TCK.옹알이
 
 class 옹알이Test : StringSpec(
+
     {
         "옹알이 테스트 코드" {
             val babbling : Array<String> =  arrayOf("ayaye", "uuuma", "ye", "yemawoo", "ayaa")

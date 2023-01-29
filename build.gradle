@@ -10,10 +10,16 @@ repositories {
     mavenCentral()
 }
 
+test {
+    useJUnitPlatform()
+}
+
 dependencies {
     implementation('org.projectlombok:lombok:1.18.24')
     implementation("javax.validation:validation-api:2.0.1.Final")
     implementation("com.google.code.findbugs:jsr305:3.0.2")
+    implementation 'junit:junit:4.13.1'
+    implementation 'org.testng:testng:7.1.0'
     annotationProcessor('org.projectlombok:lombok:1.18.24')
 
     testImplementation 'org.assertj:assertj-core:3.11.1'
@@ -28,6 +34,8 @@ dependencies {
     testImplementation("io.kotest.extensions:kotest-extensions-spring:1.1.1")
 
 }
+
+
 
 test {
     useJUnitPlatform()

@@ -6,9 +6,11 @@ import java.util.Arrays
 class 김서방 {
     fun solution(seoul: Array<String>):String {
         var answer = ""
+        var k :Int = 0
         for(i in seoul) {
             if(i.equals("Kim")) {
-                answer = "김서방은 "+i+"에 있다"
+                 ++k
+                answer = "김서방은 "+k+"에 있다"
             }
         }
         return answer
