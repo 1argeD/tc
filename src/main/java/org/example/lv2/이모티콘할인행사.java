@@ -6,32 +6,29 @@ import java.util.ArrayList;
 public class 이모티콘할인행사 {
     public int[] solution(int[][] users, int[] emoticons) {
         int[] answer = {};
-        int[] sale = {10,20,30,40};
+        int[] per = {10,20,30,40};
+        int cnt = 0;
         int sum = 0;
         int dex = 0;
-        int cnt = 0;
+        int[] s = {};
 
-        int ground =0;
-        ArrayList<int[]> per = new ArrayList<>();
-
-        for(int i=0; i<users.length; i++){
-            per.add(users[i]);//int[][] 형 int[]로 변환
-            int[] s = per.get(i);
-            for(int j : sale) {
-                if(s[0]<=j){
-                    for (int emoticon : emoticons) {
-                        dex = emoticon - emoticon / 100 * j; //할인율 대로 이모티콘 순서대로 할인하기
-                        sum += dex;  //구매한 임티 값 총합
-                        if(sum>s[1]) {
-                            cnt++;
-                            sum=0;
-                        }
+        for (int[] user : users) {
+            s = user;
+            for(int j : per) {
+                for(int k = emoticons.length-1; k>=0; --k ) {
+                    dex = emoticons[k]-emoticons[k]*j/100;
+                    if(s[0]<=j){
+                        sum+=dex;
+                    }
+                    if(s[0] <=j && s[1]<sum) {
+                        cnt++;
+                        sum-=dex;
+                        break;
                     }
                 }
             }
-            ground+=sum;
-            answer = new int[] {cnt, ground};
-            }
+        }
+       answer = new int[] {cnt,sum};
         return answer;
     }
     }
