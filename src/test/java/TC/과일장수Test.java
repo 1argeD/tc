@@ -15,7 +15,7 @@ public class 과일장수Test {
         int[] score = {1, 2, 3, 1, 2, 3, 1};
         int answer = 8;
         int result = fruit.solution(k, m, score);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
     }
 
     @Test
@@ -25,7 +25,7 @@ public class 과일장수Test {
         int[] score = {4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2};
         int answer = 33;
         int result = fruit.solution(k,m,score);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
 
     }
 }

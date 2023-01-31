@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; 이모티콘할인행사">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/과일장수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC/과일장수Test.java" afterDir="false" />
+    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; 과일장수">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/과일장수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/과일장수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC/과일장수Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC/과일장수Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.과일장수Test.solution2">
+  <component name="RunManager" selected="JUnit.과일장수Test.solution">
     <configuration name="tc-master [buildKotlinToolingMetadata]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,6 +212,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="과일장수Test.solution2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.과일장수Test" />
+      <option name="METHOD_NAME" value="solution2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="과일장수Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.과일장수Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="과일장수Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <extension name="coverage">
@@ -295,8 +326,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.과일장수Test.solution2" />
         <item itemvalue="JUnit.과일장수Test.solution" />
+        <item itemvalue="JUnit.과일장수Test.solution2" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution2" />
         <item itemvalue="Gradle.tc-master [test]" />
@@ -335,7 +366,8 @@
       <workItem from="1674928239241" duration="80000" />
       <workItem from="1674978623370" duration="22808000" />
       <workItem from="1675018989297" duration="34000" />
-      <workItem from="1675061418531" duration="19288000" />
+      <workItem from="1675061418531" duration="25175000" />
+      <workItem from="1675170671852" duration="11086000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -526,7 +558,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675019011399</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="&lt;feat&gt; 과일장수">
+      <created>1675099411972</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675099411972</updated>
+    </task>
+    <task id="LOCAL-00029" summary="&lt;feat&gt; 과일장수">
+      <created>1675099445947</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675099445947</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +619,8 @@
     <MESSAGE value="&lt;fix&gt; kotlin unresolved reference 애러 발생 수정" />
     <MESSAGE value="&lt;fix&gt; kotlin unresolved reference 애러 수정" />
     <MESSAGE value="&lt;feat&gt; 이모티콘할인행사" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 이모티콘할인행사" />
+    <MESSAGE value="&lt;feat&gt; 과일장수" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 과일장수" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,11 +629,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java</url>
           <line>14</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/TC/과일장수.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
