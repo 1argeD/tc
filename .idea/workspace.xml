@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="&lt;feat&gt; 과일장수-시간복잡도 반례 해결">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" afterDir="false" />
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;feat&gt; 과일장수-시간복잡도 반례 해결">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사하기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
