@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;feat&gt; 과일장수-시간복잡도 반례 해결">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사하기.java" afterDir="false" />
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="(feat)성격유형 검사하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/완주하지못한선수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/편지.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/개인정보수집유효기간.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/개인정보수집유효기간.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +373,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="4c30060b-7e73-4a42-94ac-4a097a0b8c63" name="변경" comment="" />
+      <changelist id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="(feat)성격유형 검사하기" />
       <created>1673333506683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -400,6 +407,8 @@
       <workItem from="1675233599708" duration="4649000" />
       <workItem from="1675320850651" duration="17484000" />
       <workItem from="1675421957467" duration="3002000" />
+      <workItem from="1675664900899" duration="207000" />
+      <workItem from="1675681619433" duration="2579000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -625,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675241653474</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="(feat)성격유형 검사하기">
+      <created>1675583803513</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675583803513</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +658,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -674,17 +690,7 @@
     <MESSAGE value="&lt;feat&gt; 이모티콘할인행사" />
     <MESSAGE value="&lt;feat&gt; 과일장수" />
     <MESSAGE value="&lt;feat&gt; 과일장수-시간복잡도 반례 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 과일장수-시간복잡도 반례 해결" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="(feat)성격유형 검사하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="(feat)성격유형 검사하기" />
   </component>
 </project>

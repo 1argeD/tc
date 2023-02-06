@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /*https://school.programmers.co.kr/learn/courses/30/lessons/150370*/
-public class 개인정보수집유효기간 {
+public class    개인정보수집유효기간 {
     private static int[] addDays(int year, int month, int day, int term) {
         int[] days = new int[3];
         days[0] = year+(month+term)/12;
