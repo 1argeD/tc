@@ -1,7 +1,6 @@
 package org.example.TC;
 
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.*;
 
 import static java.util.Collections.sort;
 
@@ -16,5 +15,18 @@ public class 완주하지못한선수 {
         Arrays.sort(completion);
         for(String com : completion) list.remove(com);
         return list.getLast();
+    }
+
+    public String solution2(String[] participant, String[] completion) {
+        String answer = "";
+        Map<String, String > partic = new HashMap<>();
+        for(String pa : participant) partic.put(pa, "X");
+        for(String com : completion) {
+            if(partic.equals(com)) {
+                partic.replace(com, "O");
+            }
+        }
+
+        return answer;
     }
 }
