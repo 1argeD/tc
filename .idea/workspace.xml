@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="(chore) 완주하지 못한 선수(완)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/Implementation/시각.java" afterDir="false" />
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="(feat) 시각">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/둘만의암호.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC/둘만의암호Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/완주하지못한선수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/완주하지못한선수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/이모티콘할인행사.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC/완주하지못한선수Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC/완주하지못한선수Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lv2/이모티콘할인행사Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv2/이모티콘할인행사Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/Implementation/시각.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GreedyAlorithm/Implementation/시각.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.시각">
+  <component name="RunManager" selected="JUnit.둘만의암호Test.solution">
     <configuration name="시각" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.Implementation.시각" />
       <module name="tc.main" />
@@ -256,6 +253,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="둘만의암호Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.둘만의암호Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="완주하지못한선수Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="TC" />
@@ -380,6 +387,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.둘만의암호Test.solution" />
         <item itemvalue="애플리케이션.시각" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution2" />
@@ -426,7 +434,10 @@
       <workItem from="1675421957467" duration="3002000" />
       <workItem from="1675664900899" duration="207000" />
       <workItem from="1675681619433" duration="9826000" />
-      <workItem from="1675741864120" duration="4299000" />
+      <workItem from="1675741864120" duration="4541000" />
+      <workItem from="1675783752225" duration="2268000" />
+      <workItem from="1676095755999" duration="32000" />
+      <workItem from="1676305204088" duration="8247000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -673,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675687771305</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="(feat) 시각">
+      <created>1675756612744</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675756612744</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,6 +743,7 @@
     <MESSAGE value="(feat)성격유형 검사하기" />
     <MESSAGE value="(feat) 편지(완료), 완주 하지 못한 선수 추가(효율성 테스트 통과 못함)" />
     <MESSAGE value="(chore) 완주하지 못한 선수(완)" />
-    <option name="LAST_COMMIT_MESSAGE" value="(chore) 완주하지 못한 선수(완)" />
+    <MESSAGE value="(feat) 시각" />
+    <option name="LAST_COMMIT_MESSAGE" value="(feat) 시각" />
   </component>
 </project>
