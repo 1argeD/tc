@@ -1,6 +1,7 @@
 package org.example.TC;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /*https://school.programmers.co.kr/learn/courses/30/lessons/155652*/
 public class 둘만의암호 {
@@ -37,6 +38,23 @@ public class 둘만의암호 {
             }
         }
         answer = m.toString();
+        return answer;
+    }
+
+    public String solution2(String s, String skip, int index) {
+        String answer = "";
+        char[] sArr = s.toCharArray();
+
+        for(int i=0; i<sArr.length; i++) {
+            for(int j=0; j<index; j++) {
+                do{
+                    sArr[i]++;
+                    if(sArr[i]>'z')
+                        sArr[i]-=26;
+                } while (skip.contains(String.valueOf(sArr[i])));
+            }
+        }
+        answer = String.valueOf(sArr);
         return answer;
     }
 }

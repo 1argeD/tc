@@ -13,7 +13,7 @@ public class 둘만의암호Test {
         String skip = "wbqd";
         int index = 5;
         String answer = "happy";
-        String result = two.solution(s,skip,index);
+        String result = two.solution2(s,skip,index);
         Assertions.assertThat(result).isEqualTo(answer);
     }
 }
