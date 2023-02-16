@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;feat&gt; 둘만의 암호 hashMap으로 풀어보기">
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;feat&gt; 둘만의 암호 *toCharArray()와 이중문과 do while 의 활용">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/둘만의암호.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/둘만의암호.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC/둘만의암호Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC/둘만의암호Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.둘만의암호Test.solution">
+  <component name="RunManager" selected="Gradle.tc-master [buildKotlinToolingMetadata]">
     <configuration name="시각" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.Implementation.시각" />
       <module name="tc.main" />
@@ -252,6 +250,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="둘만의암호Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="TC" />
@@ -362,41 +392,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.둘만의암호Test.solution" />
         <item itemvalue="애플리케이션.시각" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution" />
         <item itemvalue="JUnit.이모티콘할인행사Test.solution2" />
@@ -447,7 +444,8 @@
       <workItem from="1675783752225" duration="2268000" />
       <workItem from="1676095755999" duration="32000" />
       <workItem from="1676305204088" duration="8316000" />
-      <workItem from="1676355968687" duration="3948000" />
+      <workItem from="1676355968687" duration="4021000" />
+      <workItem from="1676541056305" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -708,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676313535976</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="&lt;feat&gt; 둘만의 암호 *toCharArray()과 이중문과 do while 의 활용">
+      <created>1676359982060</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1676359982060</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;feat&gt;택배 배달과 수거" />
     <MESSAGE value="&lt;chore&gt;택배 배달과 수거" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 거스름돈(향상된 for문으로 수정)" />
@@ -762,6 +766,8 @@
     <MESSAGE value="(chore) 완주하지 못한 선수(완)" />
     <MESSAGE value="(feat) 시각" />
     <MESSAGE value="&lt;feat&gt; 둘만의 암호 hashMap으로 풀어보기" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 둘만의 암호 hashMap으로 풀어보기" />
+    <MESSAGE value="&lt;feat&gt; 둘만의 암호 *toCharArray()dhk 이중문과 do while 의 활용" />
+    <MESSAGE value="&lt;feat&gt; 둘만의 암호 *toCharArray()과 이중문과 do while 의 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; 둘만의 암호 *toCharArray()과 이중문과 do while 의 활용" />
   </component>
 </project>
