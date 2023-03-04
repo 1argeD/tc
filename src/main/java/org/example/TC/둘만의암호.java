@@ -1,7 +1,6 @@
 package org.example.TC;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /*https://school.programmers.co.kr/learn/courses/30/lessons/155652*/
 public class 둘만의암호 {
