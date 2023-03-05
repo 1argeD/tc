@@ -13,23 +13,17 @@ public class 완주하지못한선수 {
         LinkedList<String> list = new LinkedList<>(Arrays.asList(participant));
         sort(list);
         Arrays.sort(completion);
-        for(String com : completion) list.remove(com);
+        for (String com : completion) list.remove(com);
         return list.getLast();
     }
 
-    public String solution2(String[] participant, String[] completion) {
-        String answer= "";
+    public String  solution2(String[] participant, String[] completion) {
+        String answer ="";
         HashMap<String , Integer> list = new HashMap<>();
-        for(String part : participant) {
-            list.put(part, list.getOrDefault(part, 0) +1);
-        }
-        for(String  com : completion) {
-            list.put(com, list.get(com)-1);
-        }
-        for(String key : list.keySet()) {
-            if(list.get(key)!= 0) {
-                answer= key;
-            }
+        for(String part : participant) list.put(part, list.getOrDefault(part, 0)+1);
+        for(String com : completion) list.put(com, list.get(com)-1);
+        for(String key : list.keySet()){
+            if(list.get(key)!=0) answer = key;
         }
         return answer;
     }
