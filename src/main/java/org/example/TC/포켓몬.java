@@ -12,3 +12,4 @@ public class 포켓몬 {
         return answer;
     }
 }
+

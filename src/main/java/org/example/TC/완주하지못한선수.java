@@ -18,15 +18,19 @@ public class 완주하지못한선수 {
     }
 
     public String solution2(String[] participant, String[] completion) {
-        String answer = "";
-        Map<String, String > partic = new HashMap<>();
-        for(String pa : participant) partic.put(pa, "X");
-        for(String com : completion) {
-            if(partic.equals(com)) {
-                partic.replace(com, "O");
+        String answer= "";
+        HashMap<String , Integer> list = new HashMap<>();
+        for(String part : participant) {
+            list.put(part, list.getOrDefault(part, 0) +1);
+        }
+        for(String  com : completion) {
+            list.put(com, list.get(com)-1);
+        }
+        for(String key : list.keySet()) {
+            if(list.get(key)!= 0) {
+                answer= key;
             }
         }
-
         return answer;
     }
 }
