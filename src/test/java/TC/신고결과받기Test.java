@@ -5,15 +5,15 @@ import org.example.TC.신고결과받기;
 import org.junit.jupiter.api.Test;
 
 public class 신고결과받기Test {
-    private final 신고결과받기 reporting = new 신고결과받기();
+    신고결과받기 reportResult = new 신고결과받기();
 
     @Test
-    void 신고결과받기() {
-        String[] id_list = {"muzi", "frodo", "apeach", "neo"};
-        String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
-        int k = 2;
-        int[] result = reporting.solution(id_list, report, k);
-        int[] answer = {2,1,1,0};
-        Assertions.assertThat(result).isEqualTo(answer);
+    void solution() {
+        String[] id_list = {"con", "ryan"};
+        String[] repost = {"ryan con", "ryan con", "ryan con", "ryan con"};
+        int k = 3;
+        int[] result = {0,0};
+        int[] answer = reportResult.solution(id_list, repost, k);
+        Assertions.assertThat(answer).isEqualTo(result);
     }
 }
