@@ -2,7 +2,7 @@ package org.example.TC;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/1845*/
 public class 포켓몬 {
     public int solution(int[] nums) {
         Map<Integer, Integer> kind = new HashMap<>();

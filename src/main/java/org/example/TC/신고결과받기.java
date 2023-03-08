@@ -1,7 +1,5 @@
 package org.example.TC;
 
-import com.sun.org.apache.xerces.internal.util.EntityResolverWrapper;
-
 import java.util.HashMap;
 import java.util.HashSet;
 

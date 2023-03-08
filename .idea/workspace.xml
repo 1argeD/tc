@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;chore&gt;완주하지 못한 선수 간소화">
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;chore&gt;신고결과 받기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC/성격유형검사Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/신고결과받기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/신고결과받기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC/신고결과받기Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC/신고결과받기Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TC/포켓몬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TC/포켓몬.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,18 +94,14 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;ef4c18c36aa880d7d2c25cbfb40284ef&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.신고결과받기Test.solution">
-    <configuration name="시각" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.Implementation.시각" />
-      <module name="tc.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.성격유형검사Test.solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GreedyAlorithm.Solution" />
       <module name="tc.main" />
@@ -231,6 +229,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="성격유형검사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.성격유형검사Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="둘만의암호Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.둘만의암호Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="둘만의암호Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="TC" />
@@ -251,6 +317,16 @@
       </extension>
       <option name="PACKAGE_NAME" value="TC" />
       <option name="MAIN_CLASS_NAME" value="TC.김서방Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="성격유형검사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.성격유형검사Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -349,64 +425,6 @@
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="TC" />
       <option name="MAIN_CLASS_NAME" value="TC.포켓몬Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="둘만의암호Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="TC" />
-      <option name="MAIN_CLASS_NAME" value="TC.둘만의암호Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="택배배달과수거하기Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.택배배달과수거하기Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -415,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.성격유형검사Test.solution" />
+        <item itemvalue="JUnit.완주하지못한선수Test.solution2" />
         <item itemvalue="JUnit.신고결과받기Test.solution" />
         <item itemvalue="JUnit.신고결과받기Test.신고결과받기" />
-        <item itemvalue="JUnit.완주하지못한선수Test.solution2" />
         <item itemvalue="애플리케이션.Solution" />
-        <item itemvalue="애플리케이션.시각" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +493,12 @@
       <workItem from="1677917677645" duration="1845000" />
       <workItem from="1677924051460" duration="1072000" />
       <workItem from="1678003804937" duration="10998000" />
-      <workItem from="1678083870092" duration="5870000" />
+      <workItem from="1678083870092" duration="9049000" />
+      <workItem from="1678094076867" duration="881000" />
+      <workItem from="1678169436113" duration="14954000" />
+      <workItem from="1678186041144" duration="24000" />
+      <workItem from="1678191815856" duration="742000" />
+      <workItem from="1678253901481" duration="5004000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;feat&gt;택배 배달과 수거">
       <created>1673361287535</created>
@@ -771,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678014269632</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="&lt;chore&gt;신고결과 받기">
+      <created>1678090237711</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090237711</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,7 +831,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 모험가 길드" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - implementation추가" />
     <MESSAGE value="&lt;feat&gt; Greedy알고리즘 - 상하좌우" />
     <MESSAGE value="&lt;feat&gt; 김서방 찾기 / 가운데 값 입력하기" />
@@ -826,15 +855,16 @@
     <MESSAGE value="&lt;feat&gt; 포켓몬" />
     <MESSAGE value="&lt;chore&gt;완주하지 못한 선수" />
     <MESSAGE value="&lt;chore&gt;완주하지 못한 선수 간소화" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;chore&gt;완주하지 못한 선수 간소화" />
+    <MESSAGE value="&lt;chore&gt;신고결과 받기" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;chore&gt;신고결과 받기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/TC/신고결과받기.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/TC/성격유형검사.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
