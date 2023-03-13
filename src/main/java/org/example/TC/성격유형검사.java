@@ -6,28 +6,27 @@ import java.util.*;
 /*https://school.programmers.co.kr/learn/courses/30/lessons/118666*/
 public class 성격유형검사 {
     public String solution(String[] survey, int[] choices) {
-        StringBuffer answer = new StringBuffer();
+        HashMap<String, Integer> identity = new HashMap<>();
         String[][] type = {{"R", "T"}, {"C", "F"}, {"J", "M"}, {"A", "N"}};
-        HashMap<String, Integer> testResult = new HashMap<>();
+        StringBuffer answer = new StringBuffer();
         int k = 0;
-        for (int s : choices) {
-            if (s < 4) {
-                testResult.put(survey[k].split("")[0], testResult.getOrDefault(survey[k].split("")[0], 0) + 4 - s);
+        for (int c : choices) {
+                if(c<4) {
+                    identity.put(survey[k].split("")[0], identity.getOrDefault(survey[k].split("")[0], 0) + 4 - c);
+                } else {
+                    identity.put(survey[k].split("")[1], identity.getOrDefault(survey[k].split("")[1], 0) +  c - 4);
+                }
+                k++;
+            }
+
+        for(String[] t : type) {
+            for(String key : t) identity.putIfAbsent(key, 0);
+            if(identity.get(t[0])>=identity.get(t[1])) {
+                answer.append(t[0]);
             } else {
-                testResult.put(survey[k].split("")[1], testResult.getOrDefault(survey[k].split("")[1], 0) + s - 4);
+                answer.append(t[1]);
             }
-            k++;
         }
-            for (String[] t : type) {
-                for (String value : t) {
-                    testResult.putIfAbsent(value, 0);
-                }
-                if (testResult.get(t[0]) >= testResult.get(t[1])) {
-                    answer.append(t[0]);
-                } else if (testResult.get(t[0]) < testResult.get(t[1])) {
-                    answer.append(t[1]);
-                }
-            }
         return answer.toString();
     }
 }
