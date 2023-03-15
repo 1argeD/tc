@@ -5,41 +5,42 @@ import static java.lang.Double.*;
 public class 다트게임 {
     public int solution(String dartResult) {
         int answer = 0;
-        String[] gameResult = dartResult.split("");
-        int[] gameScore = new int[3];
-        int dex = -1;
-        for(int i=0; i<gameResult.length; i++) {
-            if(gameResult[i].matches("[0-9]")) {
-                dex++;
-                gameScore[dex] = (int) parseDouble(gameResult[i]);
-                if(gameResult[i+1].matches("[0-9]")) {
-                    gameScore[dex] = 10;
+        String[] dartGame = dartResult.split("");
+        int[] dartScore = new int[3];
+
+        int k =-1;
+
+        for(int i = 0; i<dartGame.length; i++) {
+            if(dartGame[i].matches("[0-9]")) {
+                k++;
+                dartScore[k] = (int) parseDouble(dartGame[i]);
+                if(dartGame[i+1].matches("[0-9]")) {
+                    dartScore[k] *= 10;
                     i++;
                 }
             }
-            switch (gameResult[i]) {
+            switch (dartGame[i]) {
                 case "S":
-                    gameScore[dex] = (int) Math.pow(gameScore[dex], 1);
+                    dartScore[k] = (int) Math.pow(dartScore[k], 1);
                     break;
                 case "D":
-                    gameScore[dex] = (int) Math.pow(gameScore[dex], 2);
+                    dartScore[k] = (int) Math.pow(dartScore[k], 2);
                     break;
                 case "T":
-                    gameScore[dex] = (int) Math.pow(gameScore[dex], 3);
+                    dartScore[k] = (int) Math.pow(dartScore[k], 3);
                     break;
-                case "*":
-                    gameScore[dex]*=2;
-                    if(dex>0) gameScore[dex-1]*=2;
+                case "*" :
+                    dartScore[k] *= 2;
+                    if(k>0) dartScore[k-1] *=2;
                     break;
-                case "#":
-                    gameScore[dex]*=-1;
+                case "#" :
+                    dartScore[k] *=-1;
                     break;
             }
         }
-        for(int s : gameScore) {
-            answer+=s;
+        for(int s : dartScore) {
+            answer += s;
         }
         return answer;
     }
 }
-// drat = {1,S,2,D,*,3,T}

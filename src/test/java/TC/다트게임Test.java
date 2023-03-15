@@ -13,6 +13,6 @@ public class 다트게임Test {
     String dartResult = "1D2S#10S";
     int result = 9;
     int answer = dartGame.solution(dartResult);
-        Assertions.assertThat(answer).isEqualTo(result);
+    Assertions.assertThat(answer).isEqualTo(result);
     }
 }
