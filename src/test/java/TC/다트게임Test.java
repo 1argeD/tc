@@ -10,8 +10,8 @@ public class 다트게임Test {
 
     @Test
     void solution() {
-    String dartResult = "1S2D*3T";
-    int result = 37;
+    String dartResult = "1D2S#10S";
+    int result = 9;
     int answer = dartGame.solution(dartResult);
         Assertions.assertThat(answer).isEqualTo(result);
     }

@@ -1,40 +1,44 @@
 package org.example.TC;
 
-import javax.xml.soap.SAAJResult;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import static java.lang.Double.*;
-
+/*https://school.programmers.co.kr/learn/courses/30/lessons/17682*/
 public class 다트게임 {
     public int solution(String dartResult) {
         int answer = 0;
-        String[] target = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
-        String[] skills = {"*","#"};
-        ArrayList<String> dart = new ArrayList<>();
-        StringBuffer word = new StringBuffer();
-
-        for(int i = 0; i<dartResult.length(); i++) {
-            dart.add(Arrays.toString(dartResult.split("")));
-            if(dart.get(i).equals("0")) {
-                dart.get(i).replace("0","10");
-            }
-            if(dart.get(i).equals("S")) {
-                int s = (int) Math.pow(parseDouble(dart.get(i-1)), 1);
-            } else if(dart.get(i).equals("D")) {
-                int d = (int) Math.pow(parseDouble(dart.get(i-1)), 2);
-            } else if(dart.get(i).equals("T")) {
-                int t = (int) Math.pow(parseDouble(dart.get(i-1)), 3);
-            }
-            for(int k =0 ; k<skills.length; k++) {
-                if(dart.get(i).equals(skills[k])) {
-                    if(skills.equals("#")) {
-
-                    }
+        String[] gameResult = dartResult.split("");
+        int[] gameScore = new int[3];
+        int dex = -1;
+        for(int i=0; i<gameResult.length; i++) {
+            if(gameResult[i].matches("[0-9]")) {
+                dex++;
+                gameScore[dex] = (int) parseDouble(gameResult[i]);
+                if(gameResult[i+1].matches("[0-9]")) {
+                    gameScore[dex] = 10;
+                    i++;
                 }
             }
+            switch (gameResult[i]) {
+                case "S":
+                    gameScore[dex] = (int) Math.pow(gameScore[dex], 1);
+                    break;
+                case "D":
+                    gameScore[dex] = (int) Math.pow(gameScore[dex], 2);
+                    break;
+                case "T":
+                    gameScore[dex] = (int) Math.pow(gameScore[dex], 3);
+                    break;
+                case "*":
+                    gameScore[dex]*=2;
+                    if(dex>0) gameScore[dex-1]*=2;
+                    break;
+                case "#":
+                    gameScore[dex]*=-1;
+                    break;
+            }
         }
-
+        for(int s : gameScore) {
+            answer+=s;
+        }
         return answer;
     }
 }
