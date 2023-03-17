@@ -13,7 +13,7 @@ public class 리코쳇로봇 {
         if(success(board).equals("no")) {
             answer = -1;
         } else {
-
+            answer = clear(board);
         }
         return answer;
     }
@@ -22,30 +22,42 @@ public class 리코쳇로봇 {
         String[] answer = {"yes", "no"};
         String a = "";
         ArrayList<String> ary = new ArrayList<>(Arrays.asList(board));
-        ArrayList<String[]>check = new ArrayList<>();
+        int g = 0;
         int l = 0;
-        for(int i=0; i<ary.size(); i ++) {
-            if(ary.get(i).contains("G")) {
-                check.add(ary.get(i).split(""));
-                for(String[] c : check) {
-                    l++;
-                    if(Arrays.equals(c, new String[]{"G"})) {
-                      break;
+        for (int findG=0; findG<ary.size(); findG++) {
+            if (ary.get(findG).contains("G")) {
+                for (int k = 0; k < ary.get(findG).split("").length; k++) {
+                    g = findG;
+                    if(ary.get(findG).split("")[k].matches("G")) {
+                        l = k;
+                    }
+                    if(g==0) {
+                        return answer[0];
+                    } else if(g==ary.size()-1) {
+                        return answer[0];
+                    } else if(ary.get(findG).split("")[0].matches("G")) {
+                        return answer[0];
+                    } else if(ary.get(findG).split("")[ary.get(findG).split("").length-1].matches("G")) {
+                        return answer[0];
                     }
                 }
             }
-            check.add(ary.get(i-1).split(""));
-            if(check.get(l).equals("D")) {
-                a = answer[0];
-            } else {
-                check.add(ary.get(i+1).split(""));
-                if(check.get(l).equals("D")) {
-                     a = answer[0];
-                } else {
-                    a = answer[1];
-                }
-            }
         }
+        if(ary.get(g-1).split("")[l].matches("D")) {
+            a = answer[0];
+        } else if(ary.get(g+1).split("")[l].matches("D")) {
+            a = answer[0];
+        } else if(ary.get(g).split("")[l].matches("D")) {
+            a = answer[0];
+        } else {
+            a = answer[1];
+        }
+        return a;
+    }
+
+
+    public int clear(String[] board) {
+        int a = 0;
         return a;
     }
 
