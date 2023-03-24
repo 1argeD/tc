@@ -30,12 +30,15 @@ public class 터렛 {
                 return 0;
             }
             else if(distance_pow < Math.pow(r2 - r1, 2)) {
-                return 1;
+                return 0;
             } else if(distance_pow  == Math.pow(r1 + r2, 2)) {
+                return 1;
+            } else if (distance_pow == Math.pow(r2-r1,2)) {
                 return 1;
             } else {
                 return 2;
             }
         }
     }
+
 }
