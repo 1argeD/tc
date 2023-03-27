@@ -29,15 +29,19 @@ public class 피보나치 {
         }
 
         public static Integer[] fibonacci2(int n) {
+            if (dp[n][0] != null || dp[n][1] != null) {
+                return dp[n];
+            }
             dp[0][0] = 1;
             dp[1][0] = 0;
             dp[1][1] = 1;
             dp[0][1] = 0;
-                if(dp[n][0]==null || dp[n][1]==null) {
-                    dp[n][0] = fibonacci2(n -1)[0] + fibonacci2(n-2)[0];
-                    dp[n][1] = fibonacci2(n-1)[1] + fibonacci2(n-2)[1];
-                }
-        return dp[n];
+
+            for (int o = 2; o <= n; o++) {
+                dp[o][0] = fibonacci2(o - 1)[0] + fibonacci2(o - 2)[0];
+                dp[o][1] = fibonacci2(o - 1)[1] + fibonacci2(o - 2)[1];
+            }
+            return dp[n];
         }
     }
 }
