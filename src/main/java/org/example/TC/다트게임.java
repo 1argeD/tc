@@ -8,7 +8,7 @@ public class 다트게임 {
         String[] dartGame = dartResult.split("");
         int[] dartScore = new int[3];
 
-        int k =0;
+        int k =-1;
 
         for(int i = 0; i<dartGame.length; i++) {
             if(dartGame[i].matches("[0-9]")) {

@@ -12,6 +12,6 @@ public class 리코쳇로봇Test {
     String[] board = {"...D..R", ".D.G...", "....D.D", "D....D.", "..D...."};
     int answer = 7;
     int result = robo.solution(board);
-    Assertions.assertThat(answer).isEqualTo(result);
+    Assertions.assertThat(result).isEqualTo(answer);
     }
 }

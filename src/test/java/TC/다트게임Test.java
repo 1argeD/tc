@@ -1,6 +1,5 @@
 package TC;
 
-import com.sun.tracing.dtrace.ArgsAttributes;
 import org.assertj.core.api.Assertions;
 import org.example.TC.다트게임;
 import org.junit.jupiter.api.Test;
