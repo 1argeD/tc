@@ -14,7 +14,6 @@ public class 요격시스템 {
            System.out.println(o1[1] - o2[1]);
            return o1[1] - o2[1];
        }));
-       System.out.println(Arrays.deepToString(target));
         return answer;
     }
 }
