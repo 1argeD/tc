@@ -1,27 +1,33 @@
 package org.example.lv2;
 
-import java.time.LocalTime;
-import java.util.Comparator;
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
-import static java.util.Arrays.*;
+import static java.util.Arrays.sort;
 
 public class 호텔대실 {
     public int solution(String[][] book_time) {
-        // 시작 시간 기준으로 정렬하되, 시작 시간이 같으면 종료 시간 기준으로 정렬
-        sort(book_time, Comparator.comparing((String[] a) -> a[0]).thenComparing(a -> a[1]));
+       sort(book_time, (a1,a2)-> transStringToInt(a1[0])-transStringToInt(a2[0]));
 
-        PriorityQueue<LocalTime> checkoutTimes = new PriorityQueue<>();
+        PriorityQueue<Integer> time = new PriorityQueue<>();
 
-        for (String[] reservation : book_time) {
-            LocalTime checkIn = LocalTime.parse(reservation[0]);
-            LocalTime checkOut = LocalTime.parse(reservation[1]).plusMinutes(10);
-            if (!checkoutTimes.isEmpty() && !checkIn.isBefore(checkoutTimes.peek())) {
-                checkoutTimes.poll();
+        for(String[] book : book_time) {
+            int checkIn = transStringToInt(book[0]);
+            int checkOut = transStringToInt(book[1]);
+
+            if(!time.isEmpty() && checkIn>=time.peek()+10) {
+                time.poll();
             }
-            checkoutTimes.add(checkOut);
+            time.add(checkOut);
         }
 
-        return checkoutTimes.size();
+        return time.size();
+    }
+
+    private static int transStringToInt(String time) {
+        String[] set = time.split(":");
+        int h = Integer.parseInt(set[0]);
+        int m = Integer.parseInt(set[1]);
+        return h*60+m;
     }
 }
