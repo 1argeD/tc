@@ -9,10 +9,10 @@ public class 호텔대실Test {
 
     @Test
     void solution() {
-//        String[][] book_time = {{"09:10", "10:10"},{"10:20", "12:20"}};
-        String[][] book_time = {{"15:00", "17:00"},{"16:40", "18:20"},{"14:20", "15:20"},{"14:10", "19:20"},{"18:20", "21:20"}};
-        int answer = 3;
+//        String[][] book_time = {{"15:00", "17:00"}, {"16:40", "18:20"}, {"14:20", "15:20"}, {"14:10", "19:20"}, {"18:20", "21:20"}};
+        String[][] book_time = {{"09:10", "10:10"}, {"10:20", "12:20"}};
+        int answer = 1;
         int result = hotel.solution(book_time);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
     }
 }
