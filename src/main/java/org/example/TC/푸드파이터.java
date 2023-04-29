@@ -8,7 +8,6 @@ public class 푸드파이터 {
                 an.append(i);
             }
         }
-        String answer = an.toString()+"0"+ an.reverse().toString();
-        return answer;
+        return an.toString()+"0"+ an.reverse().toString();
     }
     }

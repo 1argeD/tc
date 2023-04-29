@@ -8,7 +8,7 @@ public class 성격유형검사 {
     public String solution(String[] survey, int[] choices) {
         HashMap<String, Integer> identity = new HashMap<>();
         String[][] type = {{"R", "T"}, {"C", "F"}, {"J", "M"}, {"A", "N"}};
-        StringBuffer answer = new StringBuffer();
+        StringBuilder answer = new StringBuilder();
         int k = 0;
         for (int c : choices) {
                 if(c<4) {

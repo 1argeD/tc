@@ -11,7 +11,7 @@ public class 택배배달과수거 {
                 for(int j=0; j<=n;j++) {
                     int recycle = cap - pickups[j];
                     if(recycle>=cap) {
-                        answer = Long.valueOf(reach + j);
+                        answer = (long) (reach + j);
                     }
                 }
             }

@@ -10,8 +10,8 @@ public class 햄버거만들기 {
     public int solution(int[] ingredient) {
         int answer = 0;
         Stack<Integer> ingred = new Stack<>();
-        for (int i = 0; i < ingredient.length; i++) {
-            ingred.push(ingredient[i]);
+        for (int k : ingredient) {
+            ingred.push(k);
             while (ingred.size() >= 4 && ingred.peek() == 1) {
                 String burger = "";
                 for (int j = 0; j < 4; j++) {

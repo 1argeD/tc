@@ -26,5 +26,5 @@ public class 완주하지못한선수 {
             if(list.get(key)!=0) answer = key;
         }
         return answer;
-    }
+        }
 }
