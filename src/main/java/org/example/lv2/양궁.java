@@ -25,10 +25,10 @@ public class 양궁 {
             for(int j=0; j<info.length; j++) {
                 if(lionArrow.get(j)<info[j]) {
                     apeach += target[i];
-                    n--;
                    lionArrow.remove(lionArrow.get(j));
                    lionArrow.addFirst(k++);
-                    if(lionArrow.get(j)>info[j]) {
+                    if(n!=0&&lionArrow.get(j)>info[j]) {
+                        n--;
                         lion+=target[i];
                         apeach-=target[j];
                         k=0;
