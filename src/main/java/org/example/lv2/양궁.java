@@ -1,46 +1,48 @@
 package org.example.lv2;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Arrays;
+import java.util.stream.IntStream;
 
 /*https://school.programmers.co.kr/learn/courses/30/lessons/92342*/
 public class 양궁 {
     public int[] solution(int n,int[] info) {
-        LinkedList<Integer> lionArrow = new LinkedList<>();
+      int[] lionArrow = new int[11];
         int apeach = 0;
         int lion = 0;
-
-        for(int i=0; i<11;i++) lionArrow.add(0);
-
-        int k =1;
+        for(int i=0; i<11;i++) lionArrow[i]=0;
+        int k =0;
 
         int[] answer = Arrow(apeach, lion, lionArrow, k, n, info);
         return answer;
     }
 
-    public int[] Arrow(int apeach, int lion, LinkedList<Integer> lionArrow, int k,int n, int[] info) {
-        int[] target = {10,9,8,7,6,5,4,3,2,1,0};
+    public int[] Arrow(int apeach, int lion,int[] lionArrow, int k,int n, int[] info) {
+        int cnt=0;
+        int max =0;
 
-        for(int i=0; i<target.length; i++) {
-            for(int j=0; j<info.length; j++) {
-                if(lionArrow.get(j)<info[j]) {
-                    apeach += target[i];
-                   lionArrow.remove(lionArrow.get(j));
-                   lionArrow.addFirst(k++);
-                    if(n!=0&&lionArrow.get(j)>info[j]) {
-                        n--;
-                        lion+=target[i];
-                        apeach-=target[j];
-                        k=0;
-                    }
-                    if(n!=0&&apeach>lion) {
-                        Arrow(apeach, lion,  lionArrow,  k, n, info);
-                    } else if(n==0&& apeach>=lion) {
-                        return new int[]{-1};
-                    }
+        for(int i = 0; i<info.length; i++) {
+            if(info[i]>lionArrow[i]) {
+                lionArrow[i]=info[i]+1;
+                n-=info[i]+1;
+                if(n<0) {
+                    lionArrow[i]-=info[i]+1;
+                    break;
                 }
             }
         }
-        return new int[]{-1};
+        for(int i=10; i>=0; i--) {
+            if(lionArrow[k]!=info[k]&&lionArrow[k]>info[k]){
+                lion+=i;
+            } else if(info[k]>lionArrow[k]){
+                apeach+=i;
+            }
+            k++;
+        }
+
+        if(lion>apeach) {
+            return lionArrow;
+        } else{
+            return new int[]{-1};
+        }
     }
 }
