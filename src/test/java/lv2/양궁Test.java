@@ -9,9 +9,9 @@ public class 양궁Test {
 
     @Test
     void solution() {
-        int n = 1;
-        int[] info = {1,0,0,0,0,0,0,0,0,0,0};
-        int[] answer = {-1};
+        int n = 5;
+        int[] info = {2,1,1,1,0,0,0,0,0,0,0};
+        int[] answer = {0,2,2,0,1,0,0,0,0,0,0};
         int[] result = target.solution(n,info);
         Assertions.assertThat(answer).isEqualTo(result);
     }
