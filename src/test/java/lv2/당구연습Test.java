@@ -9,12 +9,12 @@ public class 당구연습Test {
 
     @Test
     void solution() {
-        int m =4;
-        int n = 2;
-        int startX = 1;
-        int startY = 1;
-        int[][] balls = {{1,2}};
-        int[] answer = {5};
+        int m =10;
+        int n = 10;
+        int startX = 3;
+        int startY = 7;
+        int[][] balls = {{7,7},{2,7},{7,3}};
+        int[] answer = {52,37,116};
         int[] result = drill.solution(m,n,startX,startY,balls);
         Assertions.assertThat(answer).isEqualTo(result);
     }
