@@ -26,27 +26,27 @@ public class 당구연습 {
     public int checking(int m, int n, Position whiteBall, Position goal) {
 
         if (goal.x == whiteBall.x) {
-           int case1 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x - goal.x, 2) + Math.pow(2 * n - goal.y, 2))).replace(".0", ""));
-           int case2 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y + goal.y, 2))).replace(".0", ""));
+            int case1 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.y - goal.y, 2) + Math.pow(2 * m - 2 * goal.x, 2))).replace(".0", ""));
+            int case2 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y + goal.y, 2))).replace(".0", ""));
             return Math.min(case1, case2);
-        } else if(goal.y== whiteBall.y){
-           int case1 = Integer.parseInt(String.valueOf((Math.pow(2 * m - goal.x, 2) + Math.pow(whiteBall.y - goal.y, 2))).replace(".0", ""));
-           int case2 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x + goal.x, 2) + Math.pow(whiteBall.y - goal.y, 2))).replace(".0", ""));
+        } else if (goal.y == whiteBall.y) {
+            int case1 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x - goal.x, 2) + Math.pow(2 * n - 2 * goal.y, 2))).replace(".0", ""));
+            int case2 = Integer.parseInt(String.valueOf((Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y + goal.y, 2))).replace(".0", ""));
             return Math.min(case1, case2);
         } else {
-        /*x=0*/
-        double case1 = Math.pow(whiteBall.x + goal.x, 2) + Math.pow(whiteBall.y - goal.y, 2);
-        /*x=10*/
-        double case2 = Math.pow(whiteBall.x - (2 * m - goal.y), 2) + Math.pow(whiteBall.y - goal.y, 2);
-        /*y=0*/
-        double case3 = Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y + goal.y, 2);
-        /*y=10*/
-        double case4 = Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y - (2 * m - goal.y), 2);
-        int k = (int) Math.min(case1, case2);
-        int s = (int) Math.min(case3, case4);
-        return Math.min(s, k);
+            /*x=0*/
+            double case1 = Math.pow(whiteBall.x + goal.x, 2) + Math.pow(whiteBall.y - goal.y, 2);
+            /*x=10*/
+            double case2 = Math.pow(whiteBall.x - (2 * m - goal.x), 2) + Math.pow(whiteBall.y - goal.y, 2);
+            /*y=0*/
+            double case3 = Math.pow(whiteBall.x -goal.x, 2) + Math.pow(whiteBall.y+goal.y, 2);
+            /*y=10*/
+            double case4 = Math.pow(whiteBall.x - goal.x, 2) + Math.pow(whiteBall.y - (2 * n -  goal.y), 2);
+            int k = (int) Math.min(case1, case2);
+            int s = (int) Math.min(case3, case4);
+            return Math.min(s, k);
+        }
     }
-}
 }
 
 //    double a = Math.max(goal.x, whiteBall.x);
