@@ -8,7 +8,7 @@ public class 당구연습Test {
     당구연습 drill  = new 당구연습();
 
     @Test
-    void solution() {
+    void solution2() {
         int m =10;
         int n = 10;
         int startX = 3;
@@ -16,6 +16,6 @@ public class 당구연습Test {
         int[][] balls = {{7,7},{2,7},{7,3}};
         int[] answer = {52,37,116};
         int[] result = drill.solution(m,n,startX,startY,balls);
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
     }
 }
