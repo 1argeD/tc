@@ -2,7 +2,6 @@ package lv3;
 
 import org.assertj.core.api.Assertions;
 import org.example.lv3.코딩테스트공부;
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 public class 코딩테스트공부Test {

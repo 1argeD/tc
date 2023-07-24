@@ -1,7 +1,5 @@
 package org.example.lv2;
 
-import javafx.geometry.Pos;
-
 import java.util.ArrayDeque;
 import java.util.Queue;
 
