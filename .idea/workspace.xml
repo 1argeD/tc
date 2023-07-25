@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;chore&gt;당구연습">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv3/카운트다운.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lv3/카운트다운Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e52783fd-4aec-4387-bcc6-a6e0e068723d" name="변경" comment="&lt;feat&gt;카운트다운">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv3/등산코스정하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lv3/양과늑대.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lv3/양과늑대Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv2/리코쳇로봇.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv2/리코쳇로봇.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lv3/코딩테스트공부Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv3/코딩테스트공부Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lv3/카운트다운.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lv3/카운트다운.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lv3/카운트다운Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lv3/카운트다운Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,28 +105,6 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.카운트다운Test.solution">
-    <configuration name="tc [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="tc-master [buildKotlinToolingMetadata]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -203,6 +179,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="양과늑대Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv3" />
+      <option name="MAIN_CLASS_NAME" value="lv3.양과늑대Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="카운트다운Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <extension name="coverage">
@@ -213,76 +205,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="lv3" />
       <option name="MAIN_CLASS_NAME" value="lv3.카운트다운Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="이모티콘할인행사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.이모티콘할인행사Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="이모티콘할인행사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.이모티콘할인행사Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="리코쳇로봇Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.리코쳇로봇Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="포켓몬Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="TC" />
-      <option name="MAIN_CLASS_NAME" value="TC.포켓몬Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="양궁Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.양궁Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="성격유형검사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="TC" />
-      <option name="MAIN_CLASS_NAME" value="TC.성격유형검사Test" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="호텔대실Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tc.test" />
-      <option name="PACKAGE_NAME" value="lv2" />
-      <option name="MAIN_CLASS_NAME" value="lv2.호텔대실Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -383,6 +305,22 @@
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="lv2" />
       <option name="MAIN_CLASS_NAME" value="lv2.이모티콘할인행사Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="카운트다운Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv3" />
+      <option name="MAIN_CLASS_NAME" value="lv3.카운트다운Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -501,6 +439,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="이모티콘할인행사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.이모티콘할인행사Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="당구연습Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="lv2" />
@@ -607,6 +555,16 @@
       <module name="tc.test" />
       <option name="PACKAGE_NAME" value="lv2" />
       <option name="MAIN_CLASS_NAME" value="lv2.리코쳇로봇Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="이모티콘할인행사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.이모티콘할인행사Test" />
       <option name="METHOD_NAME" value="solution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -731,10 +689,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="리코쳇로봇Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.리코쳇로봇Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="포켓몬Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.포켓몬Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="양궁Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.양궁Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="성격유형검사Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="TC" />
+      <option name="MAIN_CLASS_NAME" value="TC.성격유형검사Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="호텔대실Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tc.test" />
+      <option name="PACKAGE_NAME" value="lv2" />
+      <option name="MAIN_CLASS_NAME" value="lv2.호텔대실Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.tc-master [buildKotlinToolingMetadata]" />
       <item itemvalue="Gradle.tc-master [compileTestKotlin]" />
-      <item itemvalue="Gradle.tc [test]" />
+      <item itemvalue="JUnit.양과늑대Test.solution" />
       <item itemvalue="JUnit.카운트다운Test.solution" />
       <item itemvalue="JUnit.당구연습Test.solution1" />
       <item itemvalue="JUnit.당구연습Test.solution2" />
@@ -743,10 +751,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.카운트다운Test.solution" />
+        <item itemvalue="JUnit.양과늑대Test.solution" />
         <item itemvalue="JUnit.당구연습Test.solution2" />
         <item itemvalue="JUnit.당구연습Test.solution1" />
         <item itemvalue="JUnit.다트게임Test.solution" />
-        <item itemvalue="Gradle.tc [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -882,7 +890,8 @@
       <workItem from="1683713955042" duration="4315000" />
       <workItem from="1683786681226" duration="9926000" />
       <workItem from="1690161855870" duration="1516000" />
-      <workItem from="1690163391575" duration="18676000" />
+      <workItem from="1690163391575" duration="18737000" />
+      <workItem from="1690249264296" duration="22066000" />
     </task>
     <task id="LOCAL-00041" summary="&lt;chore&gt;완주하지 못한 선수">
       <created>1678013752090</created>
@@ -1227,7 +1236,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683809098159</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1257,7 +1266,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;feat&gt; 다트게임 -미완" />
     <MESSAGE value="&lt;chore&gt; 다트게임" />
     <MESSAGE value="&lt;feat&gt; 리코쳇 로봇" />
     <MESSAGE value="&lt;chore&gt; 리코쳇 로봇(미완)" />
@@ -1282,7 +1290,8 @@
     <MESSAGE value="&lt;feat&gt;주식가격" />
     <MESSAGE value="&lt;feat&gt;당구연습" />
     <MESSAGE value="&lt;chore&gt;당구연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;chore&gt;당구연습" />
+    <MESSAGE value="&lt;feat&gt;카운트다운" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt;카운트다운" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
