@@ -9,8 +9,8 @@ public class 카운트다운Test {
 
     @Test
     public void solution() {
-        int target = 61;
-        int[] answer = {2,1};
+        int target = 59;
+        int[] answer = {2,2};
         int[] result = countDown.solution(target);
         Assertions.assertThat(result).isEqualTo(answer);
     }
