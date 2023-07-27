@@ -12,7 +12,7 @@ public class 카운트다운 {
 
         cnt = checkSingleDoubleTriple(target);
 
-        int throwDart = throwDart(target, cnt[1],cnt[2]);
+        int throwDart = throwDart(target, cnt[0],cnt[1]);
 
         answer[0] = throwDart;
         answer[1] = cnt[3];
@@ -32,7 +32,7 @@ public class 카운트다운 {
         boolean isSixty = target > 60;
         boolean isBull = target > 50;
 
-        int sixty = isSixty ? 1:0;
+        int sixty = isSixty ? 0:1;
         int bull = isBull ? 0:1;
         int singleOrDoubleOrTriple = 0;
 

@@ -19,7 +19,7 @@ public class 미로탈출명령어Test {
         String answer = "dllrl";
         String result = miro.solution(n,m,x,y,r,c,k);
 
-        Assertions.assertThat(answer).isEqualTo(result);
+        Assertions.assertThat(result).isEqualTo(answer);
 
     }
 }

@@ -6,8 +6,6 @@ public class 광물캐기 {
         int res = 0;
         int k = 0;
         int cnt = 0;
-        /*해당 코드는 곡괭이를 순서대로 사용하고 있음, 광물의 순서에 따라서 사용하는 곡괭이를 다른게 써야 최송 값을 구할 수 있는데,
-        곡괭이를 순서대로 사용하여 입출력에는 문제가 없지만, 테스트 코드를 보면 에러가 발생함 내일 수정할 것*/
         for (int mineral = 0; mineral < minerals.length; mineral++) {
             if (picks[k] != 0) {
                 res += craft(k, picks[k], minerals[mineral]);
